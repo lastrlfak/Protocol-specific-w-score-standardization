@@ -45,8 +45,8 @@ SMC_NC_ws_b1 = ans(2,:);
 SMC_NC_ws_b2 = ans(3,:);
 
 % Residual calculation for w-score standardization (each protocol)
-SMC_NC_Residual_ws = (SMC_NC_ct_ws(:,OLs_SMC_ws)'-(SMC_NC_ws_b1.*SMC_NC_age_ws(OLs_SMC_ws)+SMC_NC_ws_b2.*SMC_NC_ICV_ws(OLs_SMC_ws)+repmat(SMC_NC_ws_b0,[313 1])));
-AMC_NC_Residual_ws = (AMC_NC_ct_ws(:,OLs_AMC_ws)'-(AMC_NC_ws_b1.*AMC_NC_age_ws(OLs_AMC_ws)+AMC_NC_ws_b2.*AMC_NC_ICV_ws(OLs_AMC_ws)+repmat(AMC_NC_ws_b0,[313 1])));
+SMC_NC_Residual_ws = (SMC_NC_ct_ws(:,OLs_SMC_ws)'-(SMC_NC_ws_b1.*SMC_NC_age_ws(OLs_SMC_ws)+SMC_NC_ws_b2.*SMC_NC_ICV_ws(OLs_SMC_ws)+repmat(SMC_NC_ws_b0,[size(OLs_SMC_ws,1) 1])));
+AMC_NC_Residual_ws = (AMC_NC_ct_ws(:,OLs_AMC_ws)'-(AMC_NC_ws_b1.*AMC_NC_age_ws(OLs_AMC_ws)+AMC_NC_ws_b2.*AMC_NC_ICV_ws(OLs_AMC_ws)+repmat(AMC_NC_ws_b0,[size(OLs_AMC_ws,1) 1])));
 
 %% Protocol-specific w-score standardization applying to first dataset
 
