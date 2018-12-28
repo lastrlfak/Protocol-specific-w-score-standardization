@@ -14,8 +14,8 @@
 % AMC_AD_ct: Cortical thickness data of AD with Protocol 1 (first dataset), Matrix Dimension = Number of vertices X Number of subjects.
 % SMC_AD_ct: Cortical thickness data of AD with Protocol 2 (first dataset), Matrix Dimension = Number of vertices X Number of subjects.
 % 
-% "~_age": Age information (year), D = Number of subjects X 1.
-% "~_ICV": Intracranial volume information (10^5 mm3), D = Number of subjects X 1.
+% "~_age": Age information (year), Matrix Dimension = Number of subjects X 1.
+% "~_ICV": Intracranial volume information (10^5 mm3), Matrix Dimension = Number of subjects X 1.
 
 %% Vertex-wise multiple linear regression using third dataset
 
