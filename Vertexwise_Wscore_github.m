@@ -6,13 +6,13 @@
 
 % %% Input data after freesurfer preprocessing 
 % 
-% AMC_NC_ct_ws: Cortical thickness data with Protocol 1 (third dataset), D = Number of vertices X Number of subjects.
-% SMC_NC_ct_ws: Cortical thickness data with Protocol 2 (third dataset), D = Number of vertices X Number of subjects.
+% AMC_NC_ct_ws: Cortical thickness data with Protocol 1 (third dataset), Matrix Dimension = Number of vertices X Number of subjects.
+% SMC_NC_ct_ws: Cortical thickness data with Protocol 2 (third dataset), Matrix Dimension = Number of vertices X Number of subjects.
 % 
-% AMC_NC_ct: Cortical thickness data of NC with Protocol 1 (first dataset), D = Number of vertices X Number of subjects.
-% SMC_NC_ct: Cortical thickness data of NC with Protocol 2 (first dataset), D = Number of vertices X Number of subjects.
-% AMC_AD_ct: Cortical thickness data of AD with Protocol 1 (first dataset), D = Number of vertices X Number of subjects.
-% SMC_AD_ct: Cortical thickness data of AD with Protocol 2 (first dataset), D = Number of vertices X Number of subjects.
+% AMC_NC_ct: Cortical thickness data of NC with Protocol 1 (first dataset), Matrix Dimension = Number of vertices X Number of subjects.
+% SMC_NC_ct: Cortical thickness data of NC with Protocol 2 (first dataset), Matrix Dimension = Number of vertices X Number of subjects.
+% AMC_AD_ct: Cortical thickness data of AD with Protocol 1 (first dataset), Matrix Dimension = Number of vertices X Number of subjects.
+% SMC_AD_ct: Cortical thickness data of AD with Protocol 2 (first dataset), Matrix Dimension = Number of vertices X Number of subjects.
 % 
 % "~_age": Age information (year), D = Number of subjects X 1.
 % "~_ICV": Intracranial volume information (10^5 mm3), D = Number of subjects X 1.
